@@ -1,0 +1,410 @@
+@font-face {
+  font-family: "Calder";
+  src: url("fonts/Calder LC.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Calder B";
+  src: url("fonts/Calder Dark.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* .title {
+  font-size: 30px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.header {
+  background: #CCCCCC;
+  height: 630px;
+}
+.header .company-div {
+  font-family: Calder;
+  padding: 250px 0 170px 0;
+}
+.header .company-div .company-name {
+  background: #CCCCCC;
+  font-family: Calder B;
+  font-size: 56px;
+  font-weight: bold;
+}
+.header .company-div .company-description-first {
+  padding-top: 5px;
+  font-face: Calder;
+  font-size: 28px;
+  line-height: 1.1;
+}
+.header .company-div .company-description-second {
+  font-family: Calder;
+  font-size: 28px;
+  line-height: 1.1;
+}
+.header .left-arrow-carousel {
+  padding-right: 0;
+}
+.header .left-arrow-carousel .left-arrow-div {
+  border-radius: 15px 0 0 15px;
+  float: right;
+  background: #EEEEEE;
+  width: 100px;
+  height: 350px;
+  margin-top: 140px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.header .left-arrow-carousel .left-arrow-div .left-arrow {
+  border: 25px solid transparent;
+  border-right: 25px solid #CCCCCC;
+  margin-top: 140px;
+  margin-right: 35px;
+}
+.header .middle-carousel {
+  font-family: Calder B;
+  z-index: 777;
+  padding: 0 0 0 0;
+}
+.header .middle-carousel .middle-carousel-div {
+  padding-top: 90px;
+  background: #CCCCCC;
+  height: 630px;
+}
+.header .middle-carousel .middle-carousel-div .middle-carousel-shot-div {
+  height: 450px;
+  background: #EEEEEE;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+.header .middle-carousel .middle-carousel-div .middle-carousel-shot-div .middle-carousel-shot {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 220px;
+  font-weight: bold;
+}
+.header .right-arrow-carousel {
+  padding-left: 0;
+}
+.header .right-arrow-carousel .right-arrow-div {
+  float: left;
+  border-radius: 0 15px 15px 0;
+  background: #EEEEEE;
+  width: 100px;
+  height: 350px;
+  margin-top: 140px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+.header .right-arrow-carousel .right-arrow-div .right-arrow {
+  border: 25px solid transparent;
+  border-left: 25px solid #CCCCCC;
+  margin-top: 140px;
+  margin-left: 35px;
+}
+.features {
+  padding-top: 100px;
+  font-family: Calder;
+}
+.features .features-title {
+  font-size: 30px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.features .round-div {
+  width: 300px;
+  margin: 0;
+}
+.features .round-div .round {
+  margin: auto;
+  height: 250px;
+  width: 250px;
+  border-radius: 125px;
+  background: #CCCCCC;
+}
+.features .text {
+  max-width: 100%;
+  padding-top: 30px;
+  font-size: 20px;
+  width: 300px;
+  text-align: center;
+}
+.features .buttons-div {
+  margin-top: 100px;
+}
+.features .buttons-div .button {
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Calder B;
+  padding: 10px 0 10px 0;
+  border-radius: 10px;
+}
+.features .buttons-div .button-grey {
+  background: #CCCCCC;
+}
+.features .buttons-div .button-white {
+  background: #EEEEEE;
+}
+.roadmap {
+  padding-top: 180px;
+  font-family: Calder;
+}
+.roadmap .title {
+  font-size: 30px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.roadmap .item {
+  padding-top: 30px;
+}
+.roadmap .round-line {
+  float: left;
+  padding-right: 15px;
+}
+.roadmap .round-line .round {
+  width: 28px;
+  height: 28px;
+  border-radius: 15px;
+}
+.roadmap .round-line .round-black {
+  background: #4A4A4A;
+}
+.roadmap .round-line .round-grey {
+  background: #CCCCCC;
+}
+.roadmap .round-line .line {
+  height: 50px;
+  width: 4px;
+  background: #CCCCCC;
+  margin-left: 12px;
+}
+.roadmap .round-line .text {
+  font-size: 20px;
+}
+.roadmap .youtube .title {
+  font-size: 30px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.roadmap .youtube .youtube-min-first {
+  padding: 30px 15px 0 0;
+}
+.roadmap .youtube .youtube-min-second {
+  padding: 30px 0 0 15px;
+}
+.roadmap .youtube .main-div {
+  width: 100%;
+}
+.roadmap .youtube .main-div .video-div {
+  height: 400px;
+}
+.roadmap .youtube .main-div .video-div-min {
+  height: 270px;
+}
+.roadmap .youtube .main-div .video-div,
+.roadmap .youtube .main-div .video-div-min {
+  width: 100%;
+  background: #CCCCCC;
+  border-radius: 5px;
+}
+.roadmap .youtube .main-div .video-div .video-title,
+.roadmap .youtube .main-div .video-div-min .video-title {
+  color: #FFFFFF;
+  padding: 15px 0 0 15px;
+  font-size: 20px;
+}
+.roadmap .youtube .main-div .video-div .youtube-div-first,
+.roadmap .youtube .main-div .video-div-min .youtube-div-first {
+  padding-top: 120px;
+}
+.roadmap .youtube .main-div .video-div .youtube-div-other,
+.roadmap .youtube .main-div .video-div-min .youtube-div-other {
+  padding-top: 75px;
+}
+.roadmap .youtube .main-div .video-div .youtube-div,
+.roadmap .youtube .main-div .video-div-min .youtube-div {
+  padding-top: 75px;
+}
+.roadmap .youtube .main-div .video-div .youtube-div .youtube-pointer,
+.roadmap .youtube .main-div .video-div-min .youtube-div .youtube-pointer {
+  border: 40px solid transparent;
+  border-left: 60px solid #FFFFFF;
+  margin: 0 calc(50% - 40px) 0 calc(50% - 40px);
+}
+.partners {
+  padding-top: 100px;
+}
+.partners .list {
+  padding: 0 0 0 0 ;
+  font-size: 35px;
+  text-align: center;
+}
+.partners .logo {
+  font-style: italic;
+}
+.projects {
+  padding-top: 100px;
+  font-family: Calder;
+}
+.projects .item-div {
+  width: 100%;
+  border: solid 4px #CCCCCC;
+  border-radius: 10px;
+  padding: 15px;
+}
+.projects .item-div .item-title {
+  font-size: 32px;
+}
+.projects .item-div .item-text {
+  font-size: 20px;
+  line-height: 1.4;
+}
+.projects .item-div .item-link {
+  font-size: 16px;
+}
+.team {
+  padding-top: 100px;
+  font-family: Calder;
+}
+.team .main-div {
+  padding-bottom: 60px;
+}
+.team .main-div .round {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: #CCCCCC;
+}
+.team .main-div .round-uncommon {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  border: solid 4px #CCCCCC;
+}
+.team .main-div .round-uncommon .round-text {
+  text-align: center;
+  font-size: 40px;
+  padding-top: 15px;
+  color: #CCCCCC;
+  font-weight: bold;
+  font-family: Calder B;
+}
+.team .main-div .item-div {
+  float: left;
+  width: calc(100% - 100px);
+  padding-left: 20px;
+}
+.team .main-div .item-div .item-title {
+  font-size: 32px;
+  padding-top: 10px;
+  line-height: 1;
+}
+.team .main-div .item-div .item-subtitle {
+  font-size: 28px;
+  font-weight: bold;
+  font-family: Calder B;
+  padding-bottom: 25px;
+}
+.team .main-div .item-div .item-text {
+  font-size: 15px;
+}
+.subscribe {
+  padding-top: 40px;
+  font-family: Calder;
+}
+.subscribe .main-div {
+  width: 100%;
+  background: #EEEEEE;
+  height: 275px;
+  border-radius: 10px;
+  padding: 30px 0 25px 30px;
+}
+.subscribe .main-div .title {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Calder B;
+}
+.subscribe .main-div .input-text {
+  margin-left: 10px;
+  padding: 0 0 0 0;
+}
+.subscribe .main-div .input-text input {
+  height: 80px;
+  border-radius: 15px;
+  font-size: 25px;
+}
+.subscribe .main-div .input-submit {
+  padding: 0 20px 0 0;
+}
+.subscribe .main-div .input-submit input {
+  height: 80px;
+  border-radius: 15px;
+  width: 100%;
+  background: #CCCCCC;
+  font-size: 32px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Calder B;
+  padding: 10px 0 10px 0;
+}
+.subscribe .main-div .text {
+  padding: 0 40px;
+  font-size: 14px;
+}
+.contact {
+  padding-top: 100px;
+}
+.contact .main-div {
+  padding: 60px 0 60px 0;
+  background: #EEEEEE;
+  height: 340px;
+}
+.contact .main-div .title {
+  font-size: 30px;
+  padding-bottom: 25px;
+  font-weight: bold;
+}
+.contact .main-div .site {
+  font-weight: bold;
+  font-size: 22px;
+}
+.contact .main-div .mail {
+  font-size: 22px;
+  padding-bottom: 20px;
+}
+.contact .main-div .input-div {
+  border-left: solid 3px #CCCCCC;
+}
+.contact .main-div .input-div .input-title {
+  padding-left: 20px;
+  width: 100%;
+}
+.contact .main-div .input-div .input-current-div {
+  padding: 0 0 0 35px;
+}
+.contact .main-div .input-div .input-current-div .text {
+  font-size: 25px;
+}
+.contact .main-div .input-div .input-current-div .text-area {
+  height: 115px;
+  resize: none;
+}
+.contact .main-div .submit {
+  margin-top: 45px;
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  border: solid 4px #CCCCCC;
+  color: #CCCCCC;
+  font-size: 35px;
+}
+.contact .footer {
+  padding: 20px 0 20px 0;
+  background: #CCCCCC;
+}
+.contact .footer .text {
+  font-size: 22px;
+  font-family: Calder;
+}
